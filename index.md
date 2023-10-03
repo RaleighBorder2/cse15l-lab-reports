@@ -3,6 +3,5 @@
 normal text. \
 __bold _bold italic?_ bold__ \
 
-![Image]([http://url/a.png](https://petapixel.com/assets/uploads/2022/07/DALLEcopy.jpg)https://petapixel.com/assets/uploads/2022/07/DALLEcopy.jpg)
-
+![Image](https://petapixel.com/assets/uploads/2022/07/DALLEcopy.jpg)
 >You can take the sponge out of the water, but you can't take the bob out of the sponge. 
