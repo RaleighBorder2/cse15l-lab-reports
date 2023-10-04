@@ -40,7 +40,7 @@ _The command runs succesfully once, when used with a directory, but returns an e
 
 ---
 
-__3. ls__
+__2. ls__
  - Using ls with no argument will display all files present in the current working directory.
 ```
 [user@sahara ~]$ ls
@@ -73,7 +73,7 @@ _Above, the ls command repeats the names, "README" and "Hello.java"._
 
 ---
 
-__4. cat__
+__3. cat__
  - Using cat with no argument causes nothing to happen, as the command will continue to wait for more inputs.  This is a kind of error, as the command will not do anything but keep the console useless for as long as it is running.
 ```
 [user@sahara ~]$ cat
