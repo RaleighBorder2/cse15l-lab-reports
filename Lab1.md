@@ -83,6 +83,7 @@ __3. cat__
 ```
 _The command will do nothing but wait, and this state only ends when the kill signal is sent with ^C._
  - Using cat with a directory as an argument will cause an error, as this command does not do anything with directories. 
+
 ```
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
