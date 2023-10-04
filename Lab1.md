@@ -74,15 +74,30 @@ _Above, the ls command repeats the names, "README" and "Hello.java"._
 ---
 
 __4. cat__
- - Using cat with no argument causes nothing to happen, as the command will continue to wait for more inputs.
+ - Using cat with no argument causes nothing to happen, as the command will continue to wait for more inputs.  This is a kind of error, as the command will not do anything but keep the console useless for as long as it is running.
+```
+[user@sahara ~]$ cat
 
 
-
-
-
-
-
-
-
+^C
+```
+_The command will do nothing but wait, and this state only ends when the kill signal is sent with ^C._
+ - Using cat with a directory as an argument will cause an error, as this command does not do anything with directories.
+```
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
+```
+_As expected, an error is displayed._
+ - Using cat with one or more files will cause the contents of the specified files to be displayed together.
+```
+[user@sahara ~/lecture1/messages]$ cat en-us.txt
+Hello World!
+[user@sahara ~/lecture1/messages]$ cat en-us.txt es-mx.txt ko.txt zh-cn.txt
+Hello World!
+¡Hola Mundo!
+안녕하세요 세상!
+你好世界
+```
+_The contents of the txt files are displayed in the order the txt files are given to the function._
 
 
