@@ -74,8 +74,7 @@ _Above, the ls command repeats the names, "README" and "Hello.java"._
 ---
 
 __3. cat__
- - Using cat with no argument causes nothing to happen, as the command will continue to wait for more inputs.  This is a kind of error, as the command will not do anything but keep the console useless for as long as it is running.
-
+ - Using cat with no argument causes nothing to happen, as the command will continue to wait for more inputs.  This is a kind of error, as the command will not do anything but keep the console useless for as long as it is running. 
 ```
 [user@sahara ~]$ cat
 
