@@ -5,34 +5,27 @@ My code for the StringServer is as follows:
 ```
 import java.io.IOException;
 import java.net.URI;
-import java.util.ArrayList;
 
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
-    ArrayList<String> strings = new ArrayList<String>();
+    String messages = "";
+    int counter = 1;
 
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return ArrLstOut();
+            return messages;
         } else {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("=");
                 if (parameters[0].equals("s")) {
-                    strings.add(parameters[1]);
-                    return ArrLstOut();
+                    messages += counter++ + ".  " + parameters[1] + "\n";
+                    return messages;
                 }
             }
             return "404 Not Found!";
         }
     }
-    public String ArrLstOut() {
-        String out = "";
-        for(int i = 0; i < strings.size(); i++)
-            out += (i + 1) + ".  " + strings.get(i) + "\n";
-        return out;
-    }
-
 }
 
 class StringServer {
@@ -51,3 +44,11 @@ class StringServer {
 ---
 ## Part 2
 ![local ssh key](./lab-2-imgs/SSH-local.png)
+_The above image shows the local path to both the public and private ssh keys.  These paths are /Users/raleighborder/.ssh/id_rsa.pub and /Users/raleighborder/.ssh/id_rsa respectively._
+
+![login pt 1](./lab-2-imgs/SSH-login.png)
+![login pt 2](./lab-2-imgs/SSH-login-2.png)
+_The above images show the login process without a password.  I have cut it into two halves as to not fill the page with ... whatever all that stuff is._
+
+![remote ssh key](./lab-2-imgs/SSH-remote.png)
+_Now that I have logged in, we can see the remote key is stored at /home/linux/ieng6/cs15lfa23/cs15lfa23td/.ssh/authorized_keys_
