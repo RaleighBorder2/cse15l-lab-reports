@@ -48,3 +48,6 @@ class StringServer {
     }
 }
 ```
+---
+## Part 2
+![local ssh key](./lab-2-imgs/SSH-local.png)
