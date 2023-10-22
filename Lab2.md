@@ -42,8 +42,8 @@ class StringServer {
 }
 ```
 Here's some screenshots of it in action:
-![use 1](./lab-2-imgs/first-string)
-![use 2](./lab-2-imgs/second-string)
+![use 1](./lab-2-imgs/first-string.png)
+![use 2](./lab-2-imgs/second-string.png)
 ---
 ## Part 2
 ![local ssh key](./lab-2-imgs/SSH-local.png)
