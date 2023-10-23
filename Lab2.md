@@ -46,7 +46,7 @@ Here's some screenshots of it in action:
 ![use 2](./lab-2-imgs/second-string.png)
 _When these links are accessed, the query is handled by the handleRequest method, which will make sure the right syntax is used, then append the string to the messages string, adding the proper formatting.  To give proper credit, this is highly derivative of the NumberServer we usded in class.  In order to handle the server end of things, I am also using the Server.java, which I don't believe I am expected to fully understand.  Oops if I was... :P_
 ---
-## Part 2
+# Part 2
 ![local ssh key](./lab-2-imgs/SSH-local.png)
 _The above image shows the local path to both the public and private ssh keys.  These paths are /Users/raleighborder/.ssh/id_rsa.pub and /Users/raleighborder/.ssh/id_rsa respectively._
 
@@ -56,3 +56,5 @@ _The above images show the login process without a password.  I have cut it into
 
 ![remote ssh key](./lab-2-imgs/SSH-remote.png)
 _Now that I have logged in, we can see the remote key is stored at /home/linux/ieng6/cs15lfa23/cs15lfa23td/.ssh/authorized_keys_
+# Part 3
+One thing I learned these two weeks is the ability to use relative paths in markdown files.  This has made it much easier to type all these links and images.  :)
