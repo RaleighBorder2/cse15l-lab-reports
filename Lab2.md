@@ -43,8 +43,9 @@ class StringServer {
 ```
 Here's some screenshots of it in action:
 ![use 1](./lab-2-imgs/first-string.png)
+_The_
 ![use 2](./lab-2-imgs/second-string.png)
-_When these links are accessed, the query is handled by the handleRequest method, which will make sure the right syntax is used, then append the string to the messages string, adding the proper formatting.  To give proper credit, this is highly derivative of the NumberServer we usded in class.  In order to handle the server end of things, I am also using the Server.java, which I don't believe I am expected to fully understand.  Oops if I was... :P_
+_When these links are accessed, the query is handled by the handleRequest method, which will make sure the right syntax is used, then append the string to the messages string, adding the proper formatting.  To give proper credit, this is highly derivative of the NumberServer we usded in class._
 ---
 # Part 2
 ![local ssh key](./lab-2-imgs/SSH-local.png)
