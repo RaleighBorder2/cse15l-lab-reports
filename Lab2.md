@@ -43,7 +43,7 @@ class StringServer {
 ```
 Here's some screenshots of it in action:
 ![use 1](./lab-2-imgs/first-string.png)
-_The_
+_When this url is accessed, the method handleRequest() is passed the url.  It uses getPath() on the url, and finds that in this case the path is to add-message.  The query is then processed, and is split at the equals sign into an array of {"q", "string%20to%20be%20added"}.  Then, the String field messages is edited to include _
 ![use 2](./lab-2-imgs/second-string.png)
 _When these links are accessed, the query is handled by the handleRequest method, which will make sure the right syntax is used, then append the string to the messages string, adding the proper formatting.  To give proper credit, this is highly derivative of the NumberServer we usded in class._
 ---
