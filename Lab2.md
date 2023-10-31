@@ -43,9 +43,9 @@ class StringServer {
 ```
 Here's some screenshots of it in action:
 ![use 1](./lab-2-imgs/first-string.png)
-_When this url is accessed, the method handleRequest() is passed the url.  It uses getPath() on the url, and finds that in this case the path is to add-message.  The query is then processed, and is split at the equals sign into an array of {"q", "string%20to%20be%20added"}.  Then, the String field messages is edited to include _
+_When this url is accessed, the method handleRequest() is passed the url.  It uses getPath() on the url, and finds that in this case the path is to add-message.  The query is then processed, and is split at the equals sign into an array of {"s", "string%20to%20be%20added"}.  Then, the messages field is updated to include the requested string, with some formatting in the form of a line number and a newline character._
 ![use 2](./lab-2-imgs/second-string.png)
-_When these links are accessed, the query is handled by the handleRequest method, which will make sure the right syntax is used, then append the string to the messages string, adding the proper formatting.  To give proper credit, this is highly derivative of the NumberServer we usded in class._
+_When this link is added, a similar process unfolds.  handleRequest() finds that the path is add-message, then the query is split into an array.  Since s is the correct query to add a string, the second element of the query array is added to the messages field, which now contains both the previous string and the new string, "another%20string".  Since this was run on a mac, the output has plus signs instead of spaces, and I didn't bother fixing this, as it was stated the plus signs would be an acceptable response._
 ---
 # Part 2
 ![local ssh key](./lab-2-imgs/SSH-local.png)
