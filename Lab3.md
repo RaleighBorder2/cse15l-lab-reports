@@ -40,3 +40,5 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 The original method iterates forward through the array it is passed, replacing the first element with the last, then the second with the second to last, and so on.  This breaks when the loop gets to the second half of the array, since the first half has already been overwritten, so the data copied to the end of the array will be incorrect.  This is not picked up by the second JUnit test, as there is only one element in that array, so when it is replaced by itself there is no effect.  My fixed version works, because it first copies the given array to a second array, caled tempArr.  The original array is then iterated through, and the first element of the original array is set to the last element of the temp array, and then the second to the second to last, and so on.  There will be no overlapping issue, as the array being read from is not being changed.  
+##Part 2:
+idgaf! (deal wtih it later)
