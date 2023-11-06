@@ -65,5 +65,5 @@ The final option I looked at was the ```-i``` option.  This option allows a sear
 ![grep -i 1](./lab-2-imgs/grep-i1.png)
 _This example uses -c as well to show a count rather than a massive list of lines, which makes it a bit clearer.  There are 20 lines on which "the" appears, and 21 case insensitively, meaning one line must have "The" and not "the"._
 ![grep -i 2](./lab-2-imgs/grep-i2.png)
-_This example showcases the capital B "Bacteria" appearances, followed by a search which returns case insensitive appearances of "Bacteria".  This is quite useful, as often case sensitivity is not necessary.  A person searching for a key term likely doesn't think of bacteria differently from Bacteria and would want both to show up._
+_This example showcases the capital B "Bacteria" appearances, followed by a search which returns case insensitive appearances of "Bacteria".  This is quite useful, as often case sensitivity is not necessary.  A person searching for a key term likely doesn't think of bacteria differently from Bacteria and would want both to show up._  
 All of the information I found on these options was using the man command in the terminal.  
