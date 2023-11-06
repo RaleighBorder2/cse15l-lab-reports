@@ -2,4 +2,4 @@
 
  * [Lab 1](https://raleighborder2.github.io/cse15l-lab-reports/Lab1.html)
  * [Lab 2](./Lab2.html)
- * [Lab 3](./lab3.html)
+ * [Lab 3](./Lab3.html)
