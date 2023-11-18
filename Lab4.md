@@ -17,8 +17,8 @@ Keys pressed: `v i m <space> <shift>l <tab> . <tab> <enter>`
 _Pressing `<tab>` the first time only autofills ListExamples, so I must type `.` and then `<tab>` again to autofill the full ListExamples.java_  
 
 ![step5](./lab-2-imgs/step5-2.png)  
-Keys pressed: `4 3 <shift>4 <left> e r 2`  
-_`44$` puts the cursor at the end of the line which must be edited, and `<left>` puts the cursor on the 1 which must be changed to a 2.  r2 replaces the character under the cursor with 2._  
+Keys pressed: `4 3 <shift>4 e r 2`  
+_`43$` puts the cursor at the end of the line before the one which must be edited, and e puts the cursor on the 1 which must be changed to a 2.  r2 replaces the character under the cursor with 2._  
 
 ![step6](./lab-2-imgs/step6-2.png)  
 Keys pressed: `<shift>; w q <enter>`  
