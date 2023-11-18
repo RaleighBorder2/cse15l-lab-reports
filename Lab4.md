@@ -16,7 +16,7 @@ _Similar to cd, it is easier to just type bash, and then use `<tab>` to autofill
 Keys pressed: `v i m <space> <shift>l <tab> . <tab> <enter>`  
 _Pressing `<tab>` the first time only autofills ListExamples, so I must type `.` and then `<tab>` again to autofill the full ListExamples.java_  
 
-![step5](./lab-2-imgs/step5.png)  
+![step5](./lab-2-imgs/step5-2.png)  
 Keys pressed: `4 3 <shift>4 <left> e r 2`  
 _`44$` puts the cursor at the end of the line which must be edited, and `<left>` puts the cursor on the 1 which must be changed to a 2.  r2 replaces the character under the cursor with 2._  
 
