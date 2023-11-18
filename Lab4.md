@@ -20,7 +20,7 @@ _Pressing `<tab>` the first time only autofills ListExamples, so I must type `.`
 Keys pressed: `4 3 <shift>4 <left> e r 2`  
 _`44$` puts the cursor at the end of the line which must be edited, and `<left>` puts the cursor on the 1 which must be changed to a 2.  r2 replaces the character under the cursor with 2._  
 
-![step6](./lab-2-imgs/step6.png)  
+![step6](./lab-2-imgs/step6-2.png)  
 Keys pressed: `<shift>; w q <enter>`  
 _:wq saves the file and quits vim._  
 
