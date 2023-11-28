@@ -1,5 +1,9 @@
 # Lab Report 4  
 
+![step0](./lab-2-imgs/step0.png)  
+Keys pressed: `<up> <enter>`
+_The ssh command was the most recent command in the history, so pressing `<up>` returns to it, and pressing `<enter>` runs the command._
+
 ![step1](./lab-2-imgs/step1.png)  
 Keys pressed: `<up>`(x11)`<enter>`  
 _The clone command was 11 commands back in the history, so I returned to it and ran it with `<enter>`._  
