@@ -1,5 +1,4 @@
-# Lab Report 5
----
+# Lab Report 5  
 ## Original Post:
 ![screenshot](./lab-2-imgs/screenshot.png)
 Hello, I'm having this strange issue with my grading script.  I want it to give the student a 0% for having a compilation error, but for some reason it is considering it to be 50%.  Wouldn't this mean it is succeeding at one of the two tests? I don't see how it could be possibly doing that if the submission does not even comple.  Thank you for any help.  
